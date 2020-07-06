@@ -1,0 +1,18 @@
+# .prettierrc.toml
+# enable trailing commas
+trailingComma = "es5"
+PrintWidth = 120
+tabWidth = 4
+useTabs = false
+semi = true
+singleQuote = false
+# { 'this-object-property-is': 'need quate', not: 'need' }
+quoteProps = "as-needed"
+bracketSpacing = true
+arrowParens = "avoid"
+# rangeStart
+# rangeEnd
+insertPragma = true
+# Question: "never" vs "preserve" in --prose-wrap
+# https://github.com/prettier/prettier/issues/6488
+proseWrap = "preserve"
